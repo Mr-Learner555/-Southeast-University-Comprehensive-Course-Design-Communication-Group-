@@ -1,0 +1,490 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 22 16:47:36 2025
+# Process ID: 15312
+# Current directory: D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1
+# Command line: vivado.exe -log fir_compiler_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_compiler_0.tcl
+# Log file: D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1/fir_compiler_0.vds
+# Journal file: D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1\vivado.jou
+# Running On: 328-19, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 16, Host memory: 33666 MB
+#-----------------------------------------------------------
+source fir_compiler_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fir_compiler_0
+Command: synth_design -top fir_compiler_0 -part xc7a12ticsg325-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9204
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1545.949 ; gain = 434.148
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fir_compiler_0' [d:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/synth/fir_compiler_0.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_COMPONENT_NAME bound to: fir_compiler_0 - type: string 
+	Parameter C_COEF_FILE bound to: fir_compiler_0.mif - type: string 
+	Parameter C_COEF_FILE_LINES bound to: 41 - type: integer 
+	Parameter C_FILTER_TYPE bound to: 0 - type: integer 
+	Parameter C_INTERP_RATE bound to: 1 - type: integer 
+	Parameter C_DECIM_RATE bound to: 1 - type: integer 
+	Parameter C_ZERO_PACKING_FACTOR bound to: 1 - type: integer 
+	Parameter C_SYMMETRY bound to: 1 - type: integer 
+	Parameter C_NUM_FILTS bound to: 1 - type: integer 
+	Parameter C_NUM_TAPS bound to: 82 - type: integer 
+	Parameter C_NUM_CHANNELS bound to: 1 - type: integer 
+	Parameter C_CHANNEL_PATTERN bound to: fixed - type: string 
+	Parameter C_ROUND_MODE bound to: 1 - type: integer 
+	Parameter C_COEF_RELOAD bound to: 0 - type: integer 
+	Parameter C_NUM_RELOAD_SLOTS bound to: 1 - type: integer 
+	Parameter C_COL_MODE bound to: 1 - type: integer 
+	Parameter C_COL_PIPE_LEN bound to: 4 - type: integer 
+	Parameter C_COL_CONFIG bound to: 40,1 - type: string 
+	Parameter C_OPTIMIZATION bound to: 0 - type: integer 
+	Parameter C_DATA_PATH_WIDTHS bound to: 13 - type: string 
+	Parameter C_DATA_IP_PATH_WIDTHS bound to: 13 - type: string 
+	Parameter C_DATA_PX_PATH_WIDTHS bound to: 13 - type: string 
+	Parameter C_DATA_WIDTH bound to: 13 - type: integer 
+	Parameter C_COEF_PATH_WIDTHS bound to: 16 - type: string 
+	Parameter C_COEF_WIDTH bound to: 16 - type: integer 
+	Parameter C_DATA_PATH_SRC bound to: 0 - type: string 
+	Parameter C_COEF_PATH_SRC bound to: 0 - type: string 
+	Parameter C_PX_PATH_SRC bound to: 0 - type: string 
+	Parameter C_DATA_PATH_SIGN bound to: 0 - type: string 
+	Parameter C_COEF_PATH_SIGN bound to: 0 - type: string 
+	Parameter C_ACCUM_PATH_WIDTHS bound to: 32 - type: string 
+	Parameter C_OUTPUT_WIDTH bound to: 12 - type: integer 
+	Parameter C_OUTPUT_PATH_WIDTHS bound to: 12 - type: string 
+	Parameter C_ACCUM_OP_PATH_WIDTHS bound to: 32 - type: string 
+	Parameter C_EXT_MULT_CNFG bound to: none - type: string 
+	Parameter C_DATA_PATH_PSAMP_SRC bound to: 0 - type: string 
+	Parameter C_OP_PATH_PSAMP_SRC bound to: 0 - type: string 
+	Parameter C_NUM_MADDS bound to: 41 - type: integer 
+	Parameter C_OPT_MADDS bound to: none - type: string 
+	Parameter C_OVERSAMPLING_RATE bound to: 1 - type: integer 
+	Parameter C_INPUT_RATE bound to: 1 - type: integer 
+	Parameter C_OUTPUT_RATE bound to: 1 - type: integer 
+	Parameter C_DATA_MEMTYPE bound to: 0 - type: integer 
+	Parameter C_COEF_MEMTYPE bound to: 2 - type: integer 
+	Parameter C_IPBUFF_MEMTYPE bound to: 0 - type: integer 
+	Parameter C_OPBUFF_MEMTYPE bound to: 0 - type: integer 
+	Parameter C_DATAPATH_MEMTYPE bound to: 0 - type: integer 
+	Parameter C_MEM_ARRANGEMENT bound to: 1 - type: integer 
+	Parameter C_DATA_MEM_PACKING bound to: 0 - type: integer 
+	Parameter C_COEF_MEM_PACKING bound to: 0 - type: integer 
+	Parameter C_FILTS_PACKED bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 51 - type: integer 
+	Parameter C_HAS_ARESETn bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_DATA_HAS_TLAST bound to: 0 - type: integer 
+	Parameter C_S_DATA_HAS_FIFO bound to: 1 - type: integer 
+	Parameter C_S_DATA_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_S_DATA_TDATA_WIDTH bound to: 16 - type: integer 
+	Parameter C_S_DATA_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_DATA_HAS_TREADY bound to: 0 - type: integer 
+	Parameter C_M_DATA_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_M_DATA_TDATA_WIDTH bound to: 16 - type: integer 
+	Parameter C_M_DATA_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_CONFIG_CHANNEL bound to: 0 - type: integer 
+	Parameter C_CONFIG_SYNC_MODE bound to: 0 - type: integer 
+	Parameter C_CONFIG_PACKET_SIZE bound to: 0 - type: integer 
+	Parameter C_CONFIG_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_RELOAD_TDATA_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'fir_compiler_v7_2_20' declared at 'd:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/hdl/fir_compiler_v7_2_vh_rfs.vhd:67059' bound to instance 'U0' of component 'fir_compiler_v7_2_20' [d:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/synth/fir_compiler_0.vhd:198]
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-256] done synthesizing module 'fir_compiler_0' (0#1) [d:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/synth/fir_compiler_0.vhd:70]
+WARNING: [Synth 8-7129] Port SCLR in module delay__parameterized51 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR_ALT in module delay__parameterized51 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WE in module delay__parameterized49 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module delay__parameterized49 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module delay__parameterized49 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR_ALT in module delay__parameterized49 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module delay__parameterized49 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WE in module delay__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module delay__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module delay__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR_ALT in module delay__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module delay__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PRE_ADDSUB in module calc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CED in module calc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WE in module delay__parameterized47 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module delay__parameterized47 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module delay__parameterized47 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR_ALT in module delay__parameterized47 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module delay__parameterized47 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WE in module delay__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module delay__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module delay__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR_ALT in module delay__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module delay__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][57] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][56] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][55] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][54] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][53] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][52] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][51] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][50] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][49] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[fab][48] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][62] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][61] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][60] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][59] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][58] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][57] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][56] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][55] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][54] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][53] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][52] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][51] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][50] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][49] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port POUT[casc][48] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port P_EN in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[9] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[8] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[7] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[6] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[5] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[4] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[3] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[2] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[1] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OPCODE[0] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[31] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[30] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[29] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[28] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[27] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[26] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[25] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[24] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[23] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[22] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[21] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[20] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[19] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[18] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[17] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[16] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[15] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[14] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[13] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[12] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[11] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[10] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[9] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[8] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[7] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[6] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[5] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[4] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[3] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[2] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[1] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CIN[0] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][57] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][56] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][55] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][54] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][53] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][52] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][51] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIN[fab][50] in module addsub_mult_add__parameterized1 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1841.426 ; gain = 729.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1841.426 ; gain = 729.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1841.426 ; gain = 729.625
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.316 . Memory (MB): peak = 1841.426 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/fir_compiler_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/fir_compiler_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [d:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/constraints/fir_compiler_v7_2.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_0/constraints/fir_compiler_v7_2.xdc] for cell 'U0'
+Parsing XDC File [D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1865.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 1873.156 ; gain = 7.910
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  {D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1/dont_touch.xdc}, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3323] Resources of type DSP have been overutilized. Used = 41, Available = 40. Use report_utilization command for details.
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping            | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|calc_156    | (C'+((D'+A')'*B')')'   | 30     | 6      | 48     | 25     | 48     | 1    | 1    | 1    | 1    | 1     | 1    | 1    | 
+|calc_155    | (PCIN+((D'+A')'*B')')' | 30     | 9      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_154    | (PCIN+((D'+A')'*B')')' | 30     | 9      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_153    | (PCIN+((D'+A')'*B')')' | 30     | 8      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_152    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_151    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_150    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_149    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_148    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_147    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_146    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_145    | (PCIN+((D'+A')'*B')')' | 30     | 7      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_144    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_143    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_142    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_141    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_140    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_139    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_138    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_137    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_136    | (PCIN+((D'+A')'*B')')' | 30     | 18     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_135    | (PCIN+((D'+A')'*B')')' | 30     | 11     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_134    | (PCIN+((D'+A')'*B')')' | 30     | 7      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_133    | (PCIN+((D'+A')'*B')')' | 30     | 12     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_132    | (PCIN+((D'+A')'*B')')' | 30     | 13     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_131    | (PCIN+((D'+A')'*B')')' | 30     | 13     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_130    | (PCIN+((D'+A')'*B')')' | 30     | 14     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_129    | (PCIN+((D'+A')'*B')')' | 30     | 14     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_128    | (PCIN+((D'+A')'*B')')' | 30     | 14     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_127    | (PCIN+((D'+A')'*B')')' | 30     | 15     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_126    | (PCIN+((D'+A')'*B')')' | 30     | 15     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_125    | (PCIN+((D'+A')'*B')')' | 30     | 15     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_124    | (PCIN+((D'+A')'*B')')' | 30     | 15     | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_123    | (PCIN+((D'+A')'*B')')' | 30     | 8      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_122    | (C'+((D'+A')'*B')')'   | 30     | 15     | 0      | 25     | 48     | 1    | 1    | 1    | 1    | 1     | 1    | 1    | 
+|calc_121    | (PCIN+((D'+A')'*B')')' | 30     | 8      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_120    | (PCIN+((D'+A')'*B')')' | 30     | 9      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_119    | (PCIN+((D'+A')'*B')')' | 30     | 9      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_118    | (PCIN+((D'+A')'*B')')' | 30     | 9      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc_117    | (PCIN+((D'+A')'*B')')' | 30     | 9      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
+|calc        | (PCIN+((D'+A')'*B')')' | 30     | 9      | -      | 25     | 48     | 1    | 1    | -    | 1    | 1     | 1    | 1    | 
++------------+------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |DSP48E1 |    41|
+|2     |LUT2    |     1|
+|3     |LUT3    |     1|
+|4     |LUT4    |     4|
+|5     |LUT5    |     1|
+|6     |LUT6    |     3|
+|7     |SRL16E  |   802|
+|8     |SRLC32E |   392|
+|9     |FDRE    |  1737|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1873.156 ; gain = 761.355
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 836 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 1873.156 ; gain = 729.625
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1873.156 ; gain = 761.355
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 1873.156 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1873.156 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e9caa650
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1873.156 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1/fir_compiler_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP fir_compiler_0, cache-ID = 8db7338dac21440c
+INFO: [Coretcl 2-1174] Renamed 294 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1873.156 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Final Homework/project_1/project_1.runs/fir_compiler_0_synth_1/fir_compiler_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fir_compiler_0_utilization_synth.rpt -pb fir_compiler_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 22 16:48:37 2025...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Dec 23 16:43:42 2025
+# Process ID: 40828
+# Current directory: D:/Final Homework/project_1/project_1.runs/fir_compiler_1_synth_1
+# Command line: vivado.exe -log fir_compiler_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_compiler_1.tcl
+# Log file: D:/Final Homework/project_1/project_1.runs/fir_compiler_1_synth_1/fir_compiler_1.vds
+# Journal file: D:/Final Homework/project_1/project_1.runs/fir_compiler_1_synth_1\vivado.jou
+# Running On: LAPTOP-VAJ3GCQ0, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 16, Host memory: 33413 MB
+#-----------------------------------------------------------
+source fir_compiler_1.tcl -notrace

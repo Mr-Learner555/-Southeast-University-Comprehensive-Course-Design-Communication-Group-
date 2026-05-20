@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="qpsk_mod_demod_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="qpsk_mod_demod_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="897.262099 us"></ZoomStartTime>
+      <ZoomEndTime time="1,041.562100 us"></ZoomEndTime>
+      <Cursor1Time time="1,152.262099 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="414"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/qpsk_mod_demod_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/clk32d768M" type="logic">
+      <obj_property name="ElementShortName">clk32d768M</obj_property>
+      <obj_property name="ObjectShortName">clk32d768M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/clk8d192M" type="logic">
+      <obj_property name="ElementShortName">clk8d192M</obj_property>
+      <obj_property name="ObjectShortName">clk8d192M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/clk1d024M" type="logic">
+      <obj_property name="ElementShortName">clk1d024M</obj_property>
+      <obj_property name="ObjectShortName">clk1d024M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/clk256K" type="logic">
+      <obj_property name="ElementShortName">clk256K</obj_property>
+      <obj_property name="ObjectShortName">clk256K</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/pn" type="logic">
+      <obj_property name="ElementShortName">pn</obj_property>
+      <obj_property name="ObjectShortName">pn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/pn_para" type="array">
+      <obj_property name="ElementShortName">pn_para[61:0]</obj_property>
+      <obj_property name="ObjectShortName">pn_para[61:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/demod_pn" type="logic">
+      <obj_property name="ElementShortName">demod_pn</obj_property>
+      <obj_property name="ObjectShortName">demod_pn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/clk_syn" type="logic">
+      <obj_property name="ElementShortName">clk_syn</obj_property>
+      <obj_property name="ObjectShortName">clk_syn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/demod_pn_syn" type="logic">
+      <obj_property name="ElementShortName">demod_pn_syn</obj_property>
+      <obj_property name="ObjectShortName">demod_pn_syn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskmod/ser_data" type="logic">
+      <obj_property name="ElementShortName">ser_data</obj_property>
+      <obj_property name="ObjectShortName">ser_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/jud_I" type="array">
+      <obj_property name="ElementShortName">jud_I[1:0]</obj_property>
+      <obj_property name="ObjectShortName">jud_I[1:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-5.62766</obj_property>
+      <obj_property name="AnalogYRRangeMax">13.3723</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/jud_Q" type="array">
+      <obj_property name="ElementShortName">jud_Q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">jud_Q[1:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeMin">-45.7128</obj_property>
+      <obj_property name="AnalogYRRangeMax">29.2872</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskmod/I" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">I[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I[1:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">I[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskmod/Q" type="array">
+      <obj_property name="ElementShortName">Q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[1:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/filtered_Q" type="array">
+      <obj_property name="ElementShortName">filtered_Q[26:0]</obj_property>
+      <obj_property name="ObjectShortName">filtered_Q[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-3.08121e+13</obj_property>
+      <obj_property name="AnalogYRRangeMax">6.08386e+12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/filtered_I" type="array">
+      <obj_property name="ElementShortName">filtered_I[26:0]</obj_property>
+      <obj_property name="ObjectShortName">filtered_I[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-7.26123e+12</obj_property>
+      <obj_property name="AnalogYRRangeMax">1.11865e+13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/gate_I" type="array">
+      <obj_property name="ElementShortName">gate_I[26:0]</obj_property>
+      <obj_property name="ObjectShortName">gate_I[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-10713700.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">1068370000.000000</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/gate_Q" type="array">
+      <obj_property name="ElementShortName">gate_Q[26:0]</obj_property>
+      <obj_property name="ObjectShortName">gate_Q[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/demod_Q" type="array">
+      <obj_property name="ElementShortName">demod_Q[26:0]</obj_property>
+      <obj_property name="ObjectShortName">demod_Q[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-8.02531e+09</obj_property>
+      <obj_property name="AnalogYRRangeMax">1.50974e+10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/demod_I" type="array">
+      <obj_property name="ElementShortName">demod_I[26:0]</obj_property>
+      <obj_property name="ObjectShortName">demod_I[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-1.24313e+07</obj_property>
+      <obj_property name="AnalogYRRangeMax">2.77563e+08</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/phase_error" type="array">
+      <obj_property name="ElementShortName">phase_error[26:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_error[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-945444</obj_property>
+      <obj_property name="AnalogYRRangeMax">1.1095e+06</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/pd" type="array">
+      <obj_property name="ElementShortName">pd[23:0]</obj_property>
+      <obj_property name="ObjectShortName">pd[23:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-85803</obj_property>
+      <obj_property name="AnalogYRRangeMax">691472</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskmod/qpsk_q" type="array">
+      <obj_property name="ElementShortName">qpsk_q[13:0]</obj_property>
+      <obj_property name="ObjectShortName">qpsk_q[13:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskmod/qpsk_i" type="array">
+      <obj_property name="ElementShortName">qpsk_i[13:0]</obj_property>
+      <obj_property name="ObjectShortName">qpsk_i[13:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/qpsk_data" type="array">
+      <obj_property name="ElementShortName">qpsk_data[14:0]</obj_property>
+      <obj_property name="ObjectShortName">qpsk_data[14:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">1.77052e+08</obj_property>
+      <obj_property name="AnalogYRRangeMax">9.53796e+08</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskmod/carry_sin" type="array">
+      <obj_property name="ElementShortName">carry_sin[11:0]</obj_property>
+      <obj_property name="ObjectShortName">carry_sin[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskmod/carry_cos" type="array">
+      <obj_property name="ElementShortName">carry_cos[11:0]</obj_property>
+      <obj_property name="ObjectShortName">carry_cos[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeMin">-284.074</obj_property>
+      <obj_property name="AnalogYRRangeMax">1238.93</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/demod_carry_sin" type="array">
+      <obj_property name="ElementShortName">demod_carry_sin[11:0]</obj_property>
+      <obj_property name="ObjectShortName">demod_carry_sin[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/qpsk_mod_demod_tb/inst_qpskdemod/demod_carry_cos" type="array">
+      <obj_property name="ElementShortName">demod_carry_cos[11:0]</obj_property>
+      <obj_property name="ObjectShortName">demod_carry_cos[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

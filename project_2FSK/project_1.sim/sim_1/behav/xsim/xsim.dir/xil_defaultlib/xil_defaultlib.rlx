@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/Final Homework/project_1/project_1.gen/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd,1766112609,vhdl,,,,dds_compiler_0,,,,,,,,
+D:/Final Homework/project_1/project_1.gen/sources_1/ip/dds_compiler_1/sim/dds_compiler_1.vhd,1766112673,vhdl,,,,dds_compiler_1,,,,,,,,
+D:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_1/sim/fir_compiler_1.vhd,1766482486,vhdl,,,,fir_compiler_1,,,,,,,,
+D:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_2_1/sim/fir_compiler_2.vhd,1766482838,vhdl,,,,fir_compiler_2,,,,,,,,
+D:/Final Homework/project_1/project_1.gen/sources_1/ip/fir_compiler_3_2/sim/fir_compiler_3.vhd,1766483574,vhdl,,,,fir_compiler_3,,,,,,,,
+D:/Final Homework/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/Final Homework/project_1/project_1.srcs/sim_1/new/sim_fsk.v,1766486334,verilog,,,,sim_fsk,,,../../../../project_1.ip_user_files/ipstatic,,,,,
+D:/Final Homework/project_1/project_1.srcs/sources_1/imports/1/divClk32d768M.v,1760681035,verilog,,D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskdemod.v,,divClk32d768M,,,../../../../project_1.ip_user_files/ipstatic,,,,,
+D:/Final Homework/project_1/project_1.srcs/sources_1/new/PN_Gen.v,1766485581,verilog,,D:/Final Homework/project_1/project_1.srcs/sources_1/imports/1/divClk32d768M.v,,PN_Gen,,,../../../../project_1.ip_user_files/ipstatic,,,,,
+D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskdemod.v,1766486176,verilog,,D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskmod.v,,fskdemod,,,../../../../project_1.ip_user_files/ipstatic,,,,,
+D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskmod.v,1766132187,verilog,,D:/Final Homework/project_1/project_1.srcs/sim_1/new/sim_fsk.v,,fskmod,,,../../../../project_1.ip_user_files/ipstatic,,,,,

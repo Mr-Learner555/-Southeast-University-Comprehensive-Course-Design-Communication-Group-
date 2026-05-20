@@ -1,0 +1,17 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_11 -L axi_utils_v2_0_7 -L fir_compiler_v7_2_20 -L xbip_pipe_v3_0_7 -L xbip_bram18k_v3_0_7 -L mult_gen_v12_0_19 -L xbip_dsp48_wrapper_v3_0_5 -L xbip_dsp48_addsub_v3_0_7 -L xbip_dsp48_multadd_v3_0_7 -L dds_compiler_v6_0_23 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_fsk_behav xil_defaultlib.sim_fsk xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'm_axis_data_tdata' [D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskmod.v:14]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's_axis_data_tdata' [D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskdemod.v:41]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's_axis_data_tdata' [D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskdemod.v:49]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's_axis_data_tdata' [D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskdemod.v:68]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 's_axis_data_tdata' [D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskdemod.v:76]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 14 for port 'f1_lpf' [D:/Final Homework/project_1/project_1.srcs/sim_1/new/sim_fsk.v:87]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 14 for port 'f2_lpf' [D:/Final Homework/project_1/project_1.srcs/sim_1/new/sim_fsk.v:88]
+WARNING: [VRFC 10-5021] port 'm_axis_phase_tvalid' is not connected on this instance [D:/Final Homework/project_1/project_1.srcs/sources_1/new/fskmod.v:14]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

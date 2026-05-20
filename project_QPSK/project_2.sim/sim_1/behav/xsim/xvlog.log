@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/PN_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PN_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/costas_loop_filter_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module costas_loop_filter_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/divClk32d768M.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divClk32d768M
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/gate_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gate_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/iq_comb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iq_comb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/iq_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iq_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/moniflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moniflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/p2s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p2s
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/phase_detector_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module phase_detector_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/phasedetec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module phasedetec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/qpskdemod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qpskdemod
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sources_1/new/qpskmod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qpskmod
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final Homework/project_2/project_2.srcs/sim_1/new/qpsk_mod_demod_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qpsk_mod_demod_tb

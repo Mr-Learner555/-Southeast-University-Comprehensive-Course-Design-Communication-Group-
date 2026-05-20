@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_2.gen/sources_1/ip/demod_lpfilter3/sim/demod_lpfilter3.vhd" \
+"../../../../project_2.gen/sources_1/ip/mult_demod/sim/mult_demod.vhd" \
+"../../../../project_2.gen/sources_1/ip/dds_demod_sin/sim/dds_demod_sin.vhd" \
+"../../../../project_2.gen/sources_1/ip/dds_demod_cos/sim/dds_demod_cos.vhd" \
+"../../../../project_2.gen/sources_1/ip/mul_mod/sim/mul_mod.vhd" \
+"../../../../project_2.gen/sources_1/ip/dds_sin/sim/dds_sin.vhd" \
+"../../../../project_2.gen/sources_1/ip/dds_cos/sim/dds_cos.vhd" \
+
+# Do not sort compile order
+nosort

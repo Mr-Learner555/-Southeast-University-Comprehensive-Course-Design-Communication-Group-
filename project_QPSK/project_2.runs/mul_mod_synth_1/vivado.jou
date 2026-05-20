@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Dec 30 17:20:54 2025
+# Process ID: 8324
+# Current directory: D:/Final Homework/project_2/project_2.runs/mul_mod_synth_1
+# Command line: vivado.exe -log mul_mod.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mul_mod.tcl
+# Log file: D:/Final Homework/project_2/project_2.runs/mul_mod_synth_1/mul_mod.vds
+# Journal file: D:/Final Homework/project_2/project_2.runs/mul_mod_synth_1\vivado.jou
+# Running On: LAPTOP-VAJ3GCQ0, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 16, Host memory: 33413 MB
+#-----------------------------------------------------------
+source mul_mod.tcl -notrace

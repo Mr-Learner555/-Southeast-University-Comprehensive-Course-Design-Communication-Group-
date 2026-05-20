@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/new/PN_Gen.v" \
+"../../../../project_2.srcs/sources_1/new/clk_gen.v" \
+"../../../../project_2.srcs/sources_1/new/control.v" \
+"../../../../project_2.srcs/sources_1/new/costas_loop_filter_new.v" \
+"../../../../project_2.srcs/sources_1/new/delay.v" \
+"../../../../project_2.srcs/sources_1/new/divClk32d768M.v" \
+"../../../../project_2.srcs/sources_1/new/gate_cal.v" \
+"../../../../project_2.srcs/sources_1/new/iq_comb.v" \
+"../../../../project_2.srcs/sources_1/new/iq_div.v" \
+"../../../../project_2.srcs/sources_1/new/moniflop.v" \
+"../../../../project_2.srcs/sources_1/new/p2s.v" \
+"../../../../project_2.srcs/sources_1/new/phase_detector_new.v" \
+"../../../../project_2.srcs/sources_1/new/phasedetec.v" \
+"../../../../project_2.srcs/sources_1/new/qpskdemod.v" \
+"../../../../project_2.srcs/sources_1/new/qpskmod.v" \
+"../../../../project_2.srcs/sim_1/new/qpsk_mod_demod_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

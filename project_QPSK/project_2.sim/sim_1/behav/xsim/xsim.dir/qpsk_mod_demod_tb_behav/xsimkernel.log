@@ -1,0 +1,7 @@
+Running: xsim.dir/qpsk_mod_demod_tb_behav/xsimk.exe -simmode gui -wdb qpsk_mod_demod_tb_behav.wdb -simrunnum 0 -socket 62242
+Design successfully loaded
+Design Loading Memory Usage: 56336 KB (Peak: 56336 KB)
+Design Loading CPU Usage: 108 ms
+Simulation completed
+Simulation Memory Usage: 68352 KB (Peak: 68352 KB)
+Simulation CPU Usage: 164921 ms
